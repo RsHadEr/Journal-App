@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="18dp"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+
+    <ProgressBar
+        android:id="@+id/create_account_progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        style="?android:attr/progressBarStyleLarge"
+        />
+
+    <LinearLayout
+        android:id="@+id/create_account_email_form"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/create_account_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/username"
+            android:inputType="textPersonName"
+            android:maxLines="1"
+            android:minHeight="48dp"
+            android:autofillHints="" />
+
+        <AutoCompleteTextView
+            android:id="@+id/create_account_emailid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email_hint"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/create_account_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:minHeight="48dp"
+            android:autofillHints="" />
+        <Button
+            android:id="@+id/create_account_create_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/CreateAccount"
+            android:background="@android:color/transparent"
+            android:textColor="@color/black"/>
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

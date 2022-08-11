@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="8dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/journal_image_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:cropToPadding="true"
+            android:src="@drawable/image_three"
+            android:scaleType="fitXY"/>
+        <TextView
+            android:id="@+id/journal_title_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Title"/>
+        <TextView
+            android:id="@+id/journal_thought_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingEnd="15dp"
+
+            android:padding="10dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Thoughts...."/>
+
+        <TextView
+            android:id="@+id/journal_tiemstamp_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="DateCreated"
+            />
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

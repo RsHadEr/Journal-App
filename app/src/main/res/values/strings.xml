@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">JournalApp</string>
+    <string name="title_text">Gratitude, Self. Journal</string>
+    <string name="gratefulText">What are you grateful for today?</string>
+    <string name="start">Get Started</string>
+    <string name="email_hint">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="or">OR</string>
+    <string name="CreateAccount">Create Account</string>
+    <string name="username">Username</string>
+    <string name="Thoughts">What are your Thoughts?</string>
+    <string name="saveJournal">Save Journal</string>
+    <string name="title">Title</string>
+    <string name="menu_title">Add Thoughts</string>
+    <string name="signOut">"Sign Out  "</string>
+    <string name="signout">Sign Out</string>
+    <string name="thoughts">Add list of journal by clicking the add button</string>
+</resources>
